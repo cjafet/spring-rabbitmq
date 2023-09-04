@@ -1,8 +1,10 @@
+server:
+  port: 8082
 
 rabbit:
   host: localhost
   port: 5672
   username: guest
   password: guest
-  exchange: TestExchange
-  routingKey: testRoutingKey
+  exchange: TopicExchange
+  routingKey: topic
